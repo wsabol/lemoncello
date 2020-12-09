@@ -146,7 +146,7 @@
                               </label>
                               <div class="control">
                                 <div class="slidecontainer">
-                                  <input type="range" min="280" value="320" max="360" class="slider" id="sweetness">
+                                  <input type="range" min="150" value="190" max="230" class="slider" id="sweetness">
                                 </div>
                               </div>
                               <p class="help is-info is-hidden">
@@ -156,24 +156,43 @@
 
                             <hr />
 
-                            <div class="has-text-centered" style="margin-bottom:14px">
+                            <div class="has-text-centered" style="margin-bottom:10px">
                               <div class="control">
                                 <label class="radio">
-                                  <input type="radio" name="unit_coeff" value=1 >
+                                  <input type="radio" name="sugar_coeff" value="1.58" >
+                                  grams
+                                </label>
+                                <!--<label class="radio">
+                                  <input type="radio" name="sugar_coeff" value="1.896" checked>
+                                  mL (dry)
+                                </label>-->
+                                <label class="radio">
+                                  <input type="radio" name="sugar_coeff" value="0.0079" checked>
+                                  cups (dry)
+                                </label>
+                              </div>
+                            </div>
+                            <p class="title" >Sugar: <span id="sugar" class="pull-right"></span></p>
+
+                            <div class="has-text-centered" style="margin-bottom:10px">
+                              <div class="control">
+                                <label class="radio">
+                                  <input type="radio" name="water_coeff" value=1 >
                                   mL
                                 </label>
                                 <label class="radio">
-                                  <input type="radio" name="unit_coeff" value=240 checked>
+                                  <input type="radio" name="water_coeff" value="0.00416666667" checked>
                                   cups
                                 </label>
                               </div>
                             </div>
-
-
-                            <p class="title" >Sugar: <span id="sugar" class="pull-right"></span></p>
                             <p class="title" >Water: <span id="water" class="pull-right"></span></p>
 
+                            <hr />
+
                           </div>
+
+                          <p class="text"></p>
 
                         </div>
 
@@ -185,6 +204,18 @@
         </section>
         <!-- END ARTICLE FEED -->
         </div>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Lemoncello</strong> by <a href="https://willsabol.com">Will Sabol</a>.
+      </p>
+      <p>
+        This page is open source. Noticed a typo? Or something unclear? <br />
+          <a href="https://github.com/wsabol/lemoncello">Improve this page on GitHub</a>
+      </p>
+    </div>
+  </footer>
+
         <script async type="text/javascript" src="assets/bulma.js"></script>
         <script src='//cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
         <script>

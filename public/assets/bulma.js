@@ -54,7 +54,10 @@
       updateSpecs();
       // output.innerHTML = this.value;
     }
-    document.querySelectorAll('[name=unit_coeff]').forEach(function(el){
+    document.querySelectorAll('[name=sugar_coeff]').forEach(function(el){
+      el.addEventListener('click', updateSpecs);
+    })
+    document.querySelectorAll('[name=water_coeff]').forEach(function(el){
       el.addEventListener('click', updateSpecs);
     })
     updateSpecs();
@@ -63,16 +66,22 @@
 
 function updateSpecs() {
   let inp = Object.values(getInputs());
-  console.log(inp)
+  // console.log(inp)
   let specs = calculate(...inp);
-  console.log(specs)
-  let unit_coeff = document.querySelector('[name=unit_coeff]:checked').value;
+  // console.log(specs)
+  delete specs.sugar_sol
 
   for ( let k in specs ) {
-    specs[k] /= unit_coeff;
+    let unit_coeff = parseFloat(document.querySelector('[name='+k+'_coeff]:checked').value);
 
-    if (unit_coeff == 1) {
+    specs[k] *= unit_coeff;
+
+    if (specs[k] > 100) {
       specs[k] = specs[k].toFixed(0);
+    } else if (specs[k] > 50) {
+      specs[k] = specs[k].toFixed(1);
+    } else if (specs[k] > 10) {
+      specs[k] = specs[k].toFixed(2);
     } else {
       specs[k] = specs[k].toFixed(3);
     }
@@ -95,6 +104,5 @@ function calculate(liquor, abv_l, abv_d, c) {
   const a = liquor * abv_l;
   const w = a / (abv_d*(1 + c)) - liquor;
   const s = c * (w + liquor);
-  const s_dry = s / 0.7;
   return { sugar: s, water: w };
 }
