@@ -11,11 +11,11 @@ html,body {
   font-weight: bold;
 }
 .hero-body {
-  background-image: url("pexels-dids-1367232.jpg");
+  background-image: url("pexels-dids-1367232-2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
 }
 .articles {
   margin: 5rem 0;
