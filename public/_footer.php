@@ -1,11 +1,11 @@
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      <strong>Lemoncello</strong> by <a href="https://willsabol.com">Will Sabol</a>.
+      <strong>Limoncello</strong> by <a href="https://willsabol.com">Will Sabol</a>.
     </p>
     <p>
       This page is open source. Noticed a typo? Or something unclear? <br />
-        <a href="https://github.com/wsabol/lemoncello">Improve this page on GitHub</a>
+        <a href="https://github.com/wsabol/limoncello">Improve this page on GitHub</a>
     </p>
   </div>
 </footer>

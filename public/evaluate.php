@@ -10,12 +10,12 @@ require_once("_head.php");
             <div class="card-content">
               <div class="media">
                     <div class="media-content has-text-centered">
-                        <p class="title article-title">Lemoncello Recipe Evaulation</p>
+                        <p class="title article-title">Limoncello Recipe Evaulation</p>
                     </div>
                 </div>
                 <div class="content article-body">
-                  <p class="text">So you made some lemoncello. How is it going to taste? How strong is it really?
-                    This tool will calculate the properties of your (hopefully) delicious lemoncello. </p>
+                  <p class="text">So you made some limoncello. How is it going to taste? How strong is it really?
+                    This tool will calculate the properties of your (hopefully) delicious limoncello. </p>
 
                   <br />
 

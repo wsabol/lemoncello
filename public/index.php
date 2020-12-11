@@ -10,14 +10,14 @@ require_once("_head.php");
             <div class="card-content">
               <div class="media">
                     <div class="media-content has-text-centered">
-                        <p class="title article-title">Lemoncello Recipe Calculator</p>
+                        <p class="title article-title">Limoncello Recipe Calculator</p>
                     </div>
                 </div>
                 <div class="content article-body">
-                  <p class="text">A major struggle in tackling lemoncello is where to start when preparing the simple syrup to get your desired sweetness and strength.
+                  <p class="text">A major struggle in tackling limoncello is where to start when preparing the simple syrup to get your desired sweetness and strength.
                     Many recipes say to add the syrup "to taste", but I found this to be incredibly useless advice.</p>
                   <p class="text">This calculator will help achieve the desired sweetness and strength. Its based the many limoncello recipes I found in my quest
-                    for the perfect lemoncello recipe and my experience making them.</p>
+                    for the perfect limoncello recipe and my experience making them.</p>
 
                   <br />
 
