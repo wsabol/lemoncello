@@ -1,0 +1,11 @@
+####################
+# ACCESS CONTROL
+####################
+Header set Access-Control-Allow-Origin "*"
+#RedirectMatch 403 ^/.secure/.*$
+
+####################
+# CACHE BUSTING
+####################
+RewriteEngine on
+RewriteRule ^(.*)\.[\d]{10}\.(css|js)$ $1.$2 [L]

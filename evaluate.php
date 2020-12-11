@@ -1,4 +1,5 @@
 <?
+$page_title = "ABV/Sweetness Calculator";
 require_once("_head.php");
 ?>
 <div class="container">
@@ -10,7 +11,7 @@ require_once("_head.php");
             <div class="card-content">
               <div class="media">
                     <div class="media-content has-text-centered">
-                        <p class="title article-title">Limoncello Recipe Evaulation</p>
+                        <p class="title article-title"><?=$page_title?></p>
                     </div>
                 </div>
                 <div class="content article-body">
@@ -88,7 +89,7 @@ require_once("_head.php");
                       </label>
                       <div class="control">
                         <div class="slidecontainer">
-                          <input type="range" min="140" value="175" max="210" class="slider" id="sweetness" readonly disabled>
+                          <input type="range" min="<?=$sweet->min()?>" value="<?=$sweet->std()?>" max="<?=$sweet->max()?>" class="slider" id="sweetness" readonly disabled>
                         </div>
                       </div>
                       <p class="help is-info is-hidden">
