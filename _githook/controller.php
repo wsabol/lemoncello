@@ -7,7 +7,7 @@ chdir( '/home/saboldru/public_html/limoncello' );
 $commands = array(
   'echo $PWD',
   'whoami',
-  'bash API/git/gitsync.sh'
+  'bash _githook/gitsync.sh'
 );
 
 // Run the commands for output
