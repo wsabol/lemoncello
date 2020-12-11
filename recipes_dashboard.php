@@ -35,7 +35,7 @@ require_once("_head.php");
           <div class="card-content">
               <div class="media">
                   <div class="media-center">
-                      <img src="http://www.radfaces.com/images/avatars/daria-morgendorffer.jpg" class="author-image" alt="Placeholder image">
+                      <img src="//www.radfaces.com/images/avatars/daria-morgendorffer.jpg" class="author-image" alt="Placeholder image">
                   </div>
                   <div class="media-content has-text-centered">
                       <p class="title article-title">Sapien eget mi proin sed 🔱</p>
@@ -78,7 +78,7 @@ require_once("_head.php");
           <div class="card-content">
               <div class="media">
                   <div class="media-center">
-                      <img src="http://www.radfaces.com/images/avatars/angela-chase.jpg" class="author-image" alt="Placeholder image">
+                      <img src="//www.radfaces.com/images/avatars/angela-chase.jpg" class="author-image" alt="Placeholder image">
                   </div>
                   <div class="media-content has-text-centered">
                       <p class="title article-title">Cras tincidunt lobortis feugiat vivamus.</p>
