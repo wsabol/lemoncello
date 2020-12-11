@@ -32,39 +32,21 @@
                     <a class="navbar-item is-active" href="/">
                             Home
                         </a>
-                    <a class="navbar-item">
-                            Examples
+                    <a class="navbar-item" href="/recipes_dashboard.php">
+                            Recipes
                         </a>
-                    <a class="navbar-item">
-                            Features
-                        </a>
-                    <a class="navbar-item">
-                            Team
-                        </a>
-                    <a class="navbar-item">
-                            Archives
-                        </a>
-                    <a class="navbar-item">
-                            Help
-                        </a>
+
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
-                                Account
+                                Making
                             </a>
                         <div class="navbar-dropdown">
-                            <a class="navbar-item">
-                                    Dashboard
+                            <a class="navbar-item" href="/make.php">
+                                    Recipe Calculator
                                 </a>
-                            <a class="navbar-item">
-                                    Profile
+                            <a class="navbar-item" href="/evaluate.php">
+                                    ABV/Sweetness Calculator
                                 </a>
-                            <a class="navbar-item">
-                                    Settings
-                                </a>
-                            <hr class="navbar-divider">
-                            <div class="navbar-item">
-                                Logout
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -125,7 +125,7 @@ require_once("_head.php");
 </section>
 <!-- END ARTICLE FEED -->
 </div>
-<script defer type="text/javascript" src="assets/index.js"></script>
+<script defer type="text/javascript" src="assets/make.js"></script>
 
   <?
   require_once("_footer.php");
