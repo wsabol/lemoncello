@@ -22,7 +22,7 @@ require_once("_php_common.php");
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" href="//unpkg.com/bulma@0.9.0/css/bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <script async src='assets/_common.js'></script>
+    <script src='assets/_common.js'></script>
 </head>
 
 <body>
