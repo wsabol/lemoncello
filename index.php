@@ -1,4 +1,6 @@
 <?
+require_once("_php_common.php");
+
 $page_title = "";
 require_once("_head.php");
 ?>
@@ -10,22 +12,24 @@ require_once("_head.php");
       <div class="card article">
           <div class="card-content">
               <div class="media">
+                <div class="media-center">
+                    <img src="/assets/headshot.png" class="author-image" alt="Placeholder image">
+                </div>
                   <div class="media-content has-text-centered">
-                      <p class="title article-title">Introducing a new feature for paid subscribers</p>
+                      <p class="title article-title">About Me</p>
                       <div class="tags has-addons level-item">
-                          <span class="tag is-rounded is-info">@skeetskeet</span>
-                          <span class="tag is-rounded">May 10, 2018</span>
+                          <span class="tag is-rounded is-info">@wsabol</span>
                       </div>
                   </div>
               </div>
               <div class="content article-body">
-                  <p>Non arcu risus quis varius quam quisque. Dictum varius duis at consectetur lorem. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. </p>
-                  <p>Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Accumsan lacus vel facilisis volutpat. Non sodales neque sodales ut etiam.
-                      Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus.</p>
-                  <h3 class="has-text-centered">How to properly center tags in bulma?</h3>
-                  <p> Proper centering of tags in bulma is done with class: <pre>level-item</pre>
-                      Voluptat ut farmacium tellus in metus vulputate. Feugiat in fermentum posuere urna nec. Pharetra convallis posuere morbi leo urna molestie.
-                      Accumsan lacus vel facilisis volutpat est velit egestas. Fermentum leo vel orci porta. Faucibus interdum posuere lorem ipsum.</p>
+                  <p>I am a maker and and a web developer who is apt to go down rabbit holes and get into projects
+                    more so than average. So when a friend had several dozen home grown lemons leftover before winter,
+                    I decided to not only make some limoncello, but dive headfirst into the physics of diffusion and
+                    sugar in solution and create website to journal my findings.</p>
+                  <p>You will not find anything for sale. Everything you need to make the your best limoncello is just a click away. </p>
+                  <p>Enjoy!</p>
+
               </div>
           </div>
       </div>
@@ -35,13 +39,13 @@ require_once("_head.php");
           <div class="card-content">
               <div class="media">
                   <div class="media-center">
-                      <img src="//www.radfaces.com/images/avatars/daria-morgendorffer.jpg" class="author-image" alt="Placeholder image">
+                      <img src="/favicon_io/apple-touch-icon.png" class="author-image" alt="Placeholder image" style="border:0;border-radius:0">
                   </div>
                   <div class="media-content has-text-centered">
-                      <p class="title article-title">Sapien eget mi proin sed 🔱</p>
-                      <p class="subtitle is-6 article-subtitle">
+                      <p class="title article-title">Getting Started</p>
+                      <!--<p class="subtitle is-6 article-subtitle">
                           <a href="#">@daria</a> on February 17, 2018
-                      </p>
+                      </p>-->
                   </div>
               </div>
               <div class="content article-body">
@@ -65,10 +69,13 @@ require_once("_head.php");
           <div class="hero-body">
               <div class="container">
                   <h1 class="title">
-                      <i class="fa fa-bell-o"></i> Nemo enim ipsam voluptatem quia.</h1>
-                  <span class="tag is-black is-medium is-rounded">
-                          Natus error sit voluptatem
-                      </span>
+                    Understand what you made
+                  </h1>
+                    <a href="/evaluate.php">
+                      <span class="tag is-black is-medium is-rounded">
+                          Evaluate your batch
+                        </span>
+                    </a>
               </div>
           </div>
       </section>

@@ -1,4 +1,6 @@
 <?
+require_once("_php_common.php");
+
 $page_title = "Recipes";
 require_once("_head.php");
 ?>
