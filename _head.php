@@ -1,6 +1,5 @@
 <?
 require_once("_php_common.php");
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -9,7 +8,7 @@ require_once("_php_common.php");
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Limoncello Something<?=$page_title == "" ? "" : " - ".$page_title?></title>
+    <title>LimoncelloSomething<?=$page_title == "" ? "" : " - ".$page_title?></title>
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
@@ -76,7 +75,7 @@ require_once("_php_common.php");
     <section class="hero is-medium is-bold">
         <div class="hero-body">
             <div class="container has-text-centered">
-              <h1 class="title cursive has-text-darkish">Lemoncello Something</h1>
+              <h1 class="title cursive has-text-darkish">LemoncelloSomething</h1>
               <!--<h1 class="subtitle"><?=$page_title?></h1>-->
             </div>
         </div>

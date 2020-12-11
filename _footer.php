@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="content has-text-centered">
     <p>
-      <strong>Limoncello Something.</strong> Copyright &copy; <?=date('Y')?> <a href="https://willsabol.com">Will Sabol</a>.
+      <strong>LimoncelloSomething.</strong> Copyright &copy; <?=date('Y')?> <a href="https://willsabol.com">Will Sabol</a>.
     </p>
     <p>
       This page is open source. Noticed a typo? Or something unclear? <br />
