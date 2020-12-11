@@ -10,7 +10,7 @@
   </div>
 </footer>
 
-      <script defer src='assets/app.js'></script>
+      <script defer src='<?=auto_version("assets/app.js")?>'></script>
       <script src='//cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js'></script>
       <script>
       document.addEventListener("DOMContentLoaded", function() {

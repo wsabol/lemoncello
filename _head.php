@@ -21,8 +21,8 @@ require_once("_php_common.php");
     <link href="//fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" href="//unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <script src='assets/_common.js'></script>
+    <link rel="stylesheet" type="text/css" href="<?=auto_version("assets/style.css")?>">
+    <script src='<?=auto_version("assets/_common.js")?>'></script>
 </head>
 
 <body>
